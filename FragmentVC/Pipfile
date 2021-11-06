@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages]
+editdistance = "==0.5.3"
+librosa = "==0.8.0"
+jsonargparse = "*"
+matplotlib = "==3.3.2"
+PyYAML = "==5.3.1"
+sox = "==1.4.1"
+tensorboard = "==2.3.0"
+torch = "==1.6.0"
+tqdm = "==4.51.0"
+
+[packages.fairseq]
+git = "git://github.com/pytorch/fairseq.git"
+editable = true
+ref = "1a709b2a401ac8bd6d805c8a6a5f4d7f03b923ff"
